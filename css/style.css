@@ -13,26 +13,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-size: large; 
+    
 }
 
 .header{
-    border: solid 2px color rgba(grey);
+    display: flex;
+    align-items: flex-end;
+    border: solid 2px color black;
     background-color: black;
     background-image: linear-gradient( to right, blue, white);
+    padding: 40px;
+
 }
- /*Flex box used for nav bar, justify content used to send buttons to the end of navbar */
-
-
 
 /* Style the links inside the navigation bar */
 .nav-bar a {
   float: left;
-  color: white;
+  background-image: linear-gradient( right blue white);
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Change the color of links on hover */
@@ -42,14 +43,23 @@ body{
 }
 
 /* Add a color to the active/current link */
+.nav-bar{
+  border: solid 2px color black;
+  background-color: black;
+  background-image: linear-gradient( to right, blue, white);
+  padding: 10px; 
+  overflow: hidden;
+  align-items: center;
+}
+
 .nav-bar a.active {
   background-color: #2109f8;
   color: white;
 }
-.h1{
+.profile{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-  font-size: medium;
+  
 
 
 }
@@ -68,13 +78,13 @@ p{
 .flex-container { /*Flex container used as the parent container, I have added 3 children items inside the container */
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
     
 }
 .box1 {
   flex-direction: column;
   height: 750px;
   width: 300px;
-  background-color:white;
   border: dotted 3px grey;
   margin: 10px;
   font-size: 36px;
@@ -84,10 +94,9 @@ p{
  /*Flex box used for box 2. Flex grow used to stretch the box */
 .box2 {
   flex-direction: row;
-  flex-grow: 1;
-  height: 300px;
+  flex-grow: 2;
+  height: auto;
   width: auto;
-  background-color:white;
   border: dotted grey;
   margin: 10px;
   font-size: 36px;
@@ -105,21 +114,33 @@ p{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    height: 300px;
+    height: auto;
     width: auto;
-    background-color:white;
     border: dotted grey 3px ;
     margin: 10px;
     font-size: 36px;
+
+
 }
 
-.footer-text{
+.box4 { 
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  height: 300px;
+  width: auto;
+  border: dotted grey 3px ;
+  margin: 10px;
+  font-size: 36px;
+}
+
+.footer-text{ /*footer text goes on top of the footer*/
   text-align: center;
   padding: 20px;
   color: white;
 }    
 
-.footer{
+.footer{ /*footer*/
   width: 100%;
   height: 40px;
   position: fixed;

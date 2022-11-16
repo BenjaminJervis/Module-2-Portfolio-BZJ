@@ -22,5 +22,15 @@ CSS
 
 Git
 
+# bugs 
+I can not align my flex boxes 
+I have not added content 
+I have not added images to flex boxes 
+I can not add text to my footer 
+I need to remove the background to the avatar
+
+# Completion 
+There is still a lot of work to be done but I need to practise more to be able to complete. 
+
 # License
 This software is licensed under the MIT license
