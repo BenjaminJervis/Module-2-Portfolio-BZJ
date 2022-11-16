@@ -23,6 +23,7 @@ CSS
 Git
 
 # bugs 
+I cant display portfolio h2 title as white 
 I can not align my flex boxes 
 I have not added content 
 I have not added images to flex boxes 

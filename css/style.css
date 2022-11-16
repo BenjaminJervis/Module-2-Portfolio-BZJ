@@ -42,14 +42,17 @@ body{
   color: orangered;
 }
 
-/* Add a color to the active/current link */
+/* Added a color to the active/current link, used id for nav bar */
 .nav-bar{
+  margin-right: auto;
   border: solid 2px color black;
-  background-color: black;
+  background-color: white;
   background-image: linear-gradient( to right, blue, white);
   padding: 10px; 
   overflow: hidden;
-  align-items: center;
+  margin-right: auto;
+  margin-left: 0;
+  
 }
 
 .nav-bar a.active {
@@ -66,6 +69,7 @@ body{
 .h2{
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
 }
 
 
